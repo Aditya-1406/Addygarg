@@ -1,0 +1,230 @@
+body{
+    background-color: black;
+    width: 100%;
+}
+.text-back {
+    background-color: rgb(0, 0, 0);
+}
+
+.text-side {
+    background-color: rgb(18, 18, 18);
+}
+.search-bar {
+    width: 350px;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    background: url('magnifying-glass.png') no-repeat 10px center;
+    padding-left: 40px;
+}
+.text-white {
+    color: white;
+}
+input[type=text] {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    background-image: url(https://img.icons8.com/ios/50/FFFFFF/search--v1.png);
+    background-position: 10px 10px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    mix-blend-mode: screen;
+  }
+.logo{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: black;
+    height: 50px;
+    width: 50px;
+    background-color: lightgreen;
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 1s;
+
+}
+.hr{
+    height: 1px;
+    background-color: rgb(174, 174, 174);
+}
+
+.new1 hr{
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.social button{
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(80, 80, 80);
+}
+.social button:hover{
+    
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(174, 174, 174);
+}
+
+.card:hover .logo{
+    display: flex;
+}
+.textu{
+    text-decoration: none;
+}
+.textu:hover{
+    text-decoration: underline;
+}
+.text-grey {
+    color: rgb(174, 174, 174);
+}
+.bc2{
+    background-color: rgb(36, 36, 36);
+}
+.text-bold{
+    font-weight:600 ;
+}
+.textlow{
+    font-size: 12px;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.head{
+    font-weight: 600;
+}
+.head:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.texte2:hover{
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: white;
+}
+.bbedit button{
+    height: 35px;
+    width: 35px;
+    background-color:black;
+    color: grey;
+    border-radius: 50%;
+}
+
+.bbedit button:hover{
+    height: 35px;
+    width: 35px;
+    background-color:black;
+    color: grey;
+    border-radius: 50%;
+}
+
+.bbedit1 button{
+    height: 50px;
+    width: 100px;
+    background-color:white;
+    color: black;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: 600;
+
+}
+
+
+.edit-1 {
+    height: 89vh;
+}
+
+.edit-2 {
+    height: 17vh;
+}
+.edit-3{
+    height: 70vh;
+}
+h6:hover{
+    cursor: pointer;
+}
+
+.texte {
+    font-size: large;
+}
+
+.editf {
+    
+    background: rgb(196, 12, 198);
+    background: linear-gradient(90deg, rgba(196, 12, 198, 1) 0%, rgba(56, 78, 129, 1) 52%, rgba(0, 212, 255, 1) 100%);
+}
+.row .col-6 p{
+    color:white;
+    font-weight: 500;
+}
+.bedit button{
+    background-color: white;
+    font-weight: 700;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px 20px 20px 20px;
+}
+.bedit button:hover{
+    background-color: white;
+    width: 155px;
+    height: 42px;
+}
+.bedit1 button{
+    background-color: white;
+    font-size: 12px;
+    font-weight: 700;
+    height: 35px;
+    width: 130px;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.bedit1 button:hover{
+    background-color: white;
+    width: 135px;
+    height: 37px;
+}
+.pedit{
+    word-spacing: 10px;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgb(174, 174, 174);
+    
+}
+.pedit:hover{
+    cursor: pointer;
+}
+.pedit button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    font-weight: 600;
+    border-radius: 20px 20px 20px 20px;
+    border: 0.5px solid grey;
+}
+.pedit button:hover{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    font-weight: 600;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid white;
+}

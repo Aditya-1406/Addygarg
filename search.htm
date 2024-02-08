@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="search.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ced90547cd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--Till Medium screen size-->
+    <div class="container-md-fluid d-none d-md-block" style="width: 100%;">
+        <div class="row text-back ">
+            <!--side-->
+            <div class="col-md-3 d-none d-md-block text-back edit-1 hedit ">
+                <div class="col-11 text-side d-flex flex-column mt-2 rounded-3 w-2 edit-2">
+                    <h6 class="text-white  mt-4 ms-4"><i class="fa-brands fa-spotify h5"></i> Spotify</h6>
+                    <a href="index.html" class="text-grey link ps-4 pt-2 texte "><i
+                            class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;&nbsp;Home</a>
+                    <a href="#" class=" text-white link ps-4 py-3  texte"><i
+                            class="fa-solid fa-magnifying-glass"></i>&nbsp;&nbsp;&nbsp;&nbsp;Search</a>
+                </div>
+                <div class="col-11 text-side rounded-3 edit-3 mt-2">
+                    <div class="row d-flex flex-row justify-content-between pt-2 ps-4 ">
+                        <a href="#" class="link text-grey texte w-75 d-flex"><abbr title="Collapse your library"
+                                style="display: inline;text-decoration: none;"><i
+                                    class="fa-solid fa-folder-open"></i>&nbsp;&nbsp;&nbsp;&nbsp;Your library</abbr></a>
+                        <a href="#" class="link text-grey texte  w-25"><abbr title="Create Playlist or folder"
+                                style="display: inline;text-decoration: none;">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-plus"></i></abbr></a>
+
+                    </div>
+
+                    <div class="row ms-2 mt-3 ">
+                        <div class="col-11 bc2 rounded-2 bedit1">
+                            <h6 class="text-white pt-3 ps-3">Create Your First playlist</h6>
+                            <p class="text-white ps-3">It's easy, we help you</p>
+                            &nbsp;&nbsp;&nbsp; <button type="button" class="btn">Create Playlist</button>
+                        </div>
+                    </div>
+
+                    <div class="row ms-2 mt-3 ">
+                        <div class="col-11 bc2 rounded-2 bedit1">
+                            <h6 class="text-white pt-3 ps-3">Let's find some podcasts to follow</h6>
+                            <p class="text-white ps-3">We'll keep you updated on new episodes</p>
+                            &nbsp;&nbsp;&nbsp; <button type="button" class="btn">Browse Podcasts</button>
+                        </div>
+                    </div>
+
+
+                    <div class="row d-none d-lg-block pedit ps-4 mt-5">
+                        <p class="mt-5">Legal &nbsp;Privacy Center &nbsp;Privacy Policy &nbsp;Cookies &nbsp;About Ads</p>
+                        <p>Accessiblitiy</p>
+                        <p>Cookies</p>
+                        <button type="button" class="btn mt-3"><i class="fa-solid fa-earth-americas text-white "></i>&nbsp;English</button>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+            <!--body-->
+            <div class="col-md-9 text-back mt-2 edit4 ">
+                <div class="row d-flex d-inline-block pt-3 text-side hedit2"  >
+                    <div class="col-3 bbedit d-flex justify-content-start" >
+                        <button class="btn"><abbr title="Go back"
+                            style="display: inline;text-decoration: none;">
+                            <i class="fa-solid fa-less-than"></i></abbr>
+                        </button>
+
+                        <button class="btn "><abbr title="Go forward"
+                            style="display: inline;text-decoration: none;">
+                            <i class="fa-solid fa-greater-than"></i></i></abbr>
+                        </button>
+                        <div class="search-container ms-5 mb-3">
+                            <input type="text" class="search-bar" placeholder="What do you want to listen to?">
+                          </div>
+                    </div>
+                    <div class="col-8 bbedit1 d-flex justify-content-end ms-5">
+                        <a href="#" class="text-grey link ps-4 pt-2 texte "> Sign up</a>
+                        <button class="btn ms-4">Log in</button>
+                    </div>
+                </div>
+                <div class="row  ">
+                    <div class="col-9 w-75 d-flex justify-content-start">
+                        <h3 class="text-white head  " >Browse all</h3>
+                     
+                   
+                </div>
+
+                <div class="row d-flex d-inline-block p-4">
+                    <div class="card m-3"style="height: 20vh;width: 10vw; padding: 0 0;">
+                        <a href="#">  <img src="/images/1.1.png" class="rounded-2 " style="height: 20vh;width: 10vw;"></a>
+                        
+                    </div>
+                    <div class="card m-3"style="height: 20vh;width: 10vw; padding: 0 0;">
+                        <a href="#">  <img src="/images/2.1.png" class="rounded-2 " style="height: 20vh;width: 10vw;"></a>
+                        
+                    </div>
+                    <div class="card m-3"style="height: 20vh;width: 10vw; padding: 0 0;">
+                        <a href="#">  <img src="/images/3.1.png" class="rounded-2 " style="height: 20vh;width: 10vw;"></a>
+                        
+                    </div>
+                    <div class="card m-3"style="height: 20vh;width: 10vw; padding: 0 0;">
+                        <a href="#">  <img src="/images/4.1.png" class="rounded-2 " style="height: 20vh;width: 10vw;"></a>
+                        
+                    </div>
+                    <div class="card m-3"style="height: 20vh;width: 10vw; padding: 0 0;">
+                        <a href="#">  <img src="/images/5.1.png" class="rounded-2 " style="height: 20vh;width: 10vw;"></a>
+                        
+                    </div>
+                    <div class="card m-3"style="height: 20vh;width: 10vw; padding: 0 0;">
+                        <a href="#">  <img src="/images/6.1.png" class="rounded-2 " style="height: 20vh;width: 10vw;"></a>
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="row mt-5">
+                    <div class="col-2 d-flex flex-column">
+                        <h6 class="text-white text-bold"> Company</h6>
+                        <a href="" class="text-grey textu pt-3">About</a>
+                        <a href="" class="text-grey textu pt-3">Jobs</a>
+                        <a href="" class="text-grey textu pt-3">For the Record</a>
+                    </div>
+                    <div class="col-2 d-flex flex-column">
+                        <h6 class="text-white text-bold"> Comunities</h6>
+                        <a href="" class="text-grey textu pt-3">For Artists</a>
+                        <a href="" class="text-grey textu pt-3">Developers</a>
+                        <a href="" class="text-grey textu pt-3">Advertising</a>
+                        <a href="" class="text-grey textu pt-3">Investors</a>
+                        <a href="" class="text-grey textu pt-3">Vendors</a>
+                    </div>
+                    <div class="col-2 d-flex flex-column">
+                        <h6 class="text-white text-bold"> Useful Links</h6>
+                        <a href="" class="text-grey textu pt-3">Support</a>
+                        <a href="" class="text-grey textu pt-3">Free Mobile App</a>
+                    </div>
+                    
+                    <div class="col-6 d-flex flex-row justify-content-end social  ">
+                        <button class="btn "><i class="fa-brands fa-instagram pe-5"></i></button>
+                        &nbsp;<button class="btn "><i class="fa-brands fa-facebook"></i></button>
+                        &nbsp;<button class="btn "><i class="fa-brands fa-snapchat "></i></button>
+                    </div>
+                    <br>
+                    
+                </div>
+                <br>
+                <div class="container-fluid hr">
+                    <div class="row pt-4">
+                        <h6 class="text-grey">© 2024 Spotify AB</h6>
+                    </div>
+            </div>
+            
+            
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="container-fluid d-none d-md-block editf">
+            <div class="row d-flex d-inline-block">
+                <div class="col-6 d-flex flex-column ps-4 ">
+                    <h6 class="text-white pt-3" style="font-weight: 700;">Preview of Spotify</h6>
+                    <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center  bedit">
+                    <button type="button" class="btn ">Sign up free</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

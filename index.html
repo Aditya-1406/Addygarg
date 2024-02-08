@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ced90547cd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--Till Medium screen size-->
+    <div class="container-md-fluid d-none d-md-block" style="width: 100%;">
+        <div class="row text-back">
+            <!--side-->
+            <div class="col-md-3 d-none d-md-block text-back edit-1 ">
+                <div class="col-11 text-side d-flex flex-column mt-2 rounded-3 w-2 edit-2">
+                    <h6 class="text-white  mt-4 ms-4"><i class="fa-brands fa-spotify h5"></i> Spotify</h6>
+                    <a href="#" class="text-white link ps-4 pt-2 texte "><i
+                            class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;&nbsp;Home</a>
+                    <a href="search.htm" class="text-grey link ps-4 py-3  texte"><i
+                            class="fa-solid fa-magnifying-glass"></i>&nbsp;&nbsp;&nbsp;&nbsp;Search</a>
+                </div>
+                <div class="col-11 text-side rounded-3 edit-3 mt-2">
+                    <div class="row d-flex flex-row justify-content-between pt-2 ps-4 ">
+                        <a href="#" class="link text-grey texte w-75 d-flex"><abbr title="Collapse your library"
+                                style="display: inline;text-decoration: none;"><i
+                                    class="fa-solid fa-folder-open"></i>&nbsp;&nbsp;&nbsp;&nbsp;Your library</abbr></a>
+                        <a href="#" class="link text-grey texte  w-25"><abbr title="Create Playlist or folder"
+                                style="display: inline;text-decoration: none;">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-plus"></i></abbr></a>
+
+                    </div>
+
+                    <div class="row ms-2 mt-3 ">
+                        <div class="col-11 bc2 rounded-2 bedit1">
+                            <h6 class="text-white pt-3 ps-3">Create Your First playlist</h6>
+                            <p class="text-white ps-3">It's easy, we help you</p>
+                            &nbsp;&nbsp;&nbsp; <button type="button" class="btn">Create Playlist</button>
+                        </div>
+                    </div>
+
+                    <div class="row ms-2 mt-3 ">
+                        <div class="col-11 bc2 rounded-2 bedit1">
+                            <h6 class="text-white pt-3 ps-3">Let's find some podcasts to follow</h6>
+                            <p class="text-white ps-3">We'll keep you updated on new episodes</p>
+                            &nbsp;&nbsp;&nbsp; <button type="button" class="btn">Browse Podcasts</button>
+                        </div>
+                    </div>
+
+
+                    <div class="row d-none d-lg-block pedit ps-4 mt-5">
+                        <p class="mt-5">Legal &nbsp;Privacy Center &nbsp;Privacy Policy &nbsp;Cookies &nbsp;About Ads
+                        </p>
+                        <p>Accessiblitiy</p>
+                        <p>Cookies</p>
+                        <button type="button" class="btn mt-3"><i
+                                class="fa-solid fa-earth-americas text-white "></i>&nbsp;English</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--body-->
+            <div class="col-md-9 text-back mt-2 ">
+                <div class="row d-flex d-inline-block pt-3 text-side">
+                    <div class="col-3 bbedit d-flex justify-content-start">
+                        <button class="btn"><abbr title="Go back" style="display: inline;text-decoration: none;">
+                                <i class="fa-solid fa-less-than"></i></abbr>
+                        </button>
+
+                        <button class="btn "><abbr title="Go forward" style="display: inline;text-decoration: none;">
+                                <i class="fa-solid fa-greater-than"></i></i></abbr>
+                        </button>
+                    </div>
+                    <div class="col-8 bbedit1 d-flex justify-content-end ms-5">
+                        <a href="#" class="text-grey link ps-4 pt-2 texte "> Sign up</a>
+                        <button class="btn ms-4">Log in</button>
+                    </div>
+                </div>
+                <div class="row  ">
+                    <div class="col-9 w-75 d-flex justify-content-start">
+                        <h3 class="text-white head  ">Spotify Playlists</h3>
+
+                    </div>
+                    <div class="col-3 flex-row d-flex justify-content-end ">
+                        <h6 class="text-grey  me-5 mt-3 texte2">Show all</h6>
+                    </div>
+                </div>
+
+                <div class="row d-flex d-inline-block">
+                    <div class="card rounded-3  card1 "
+                        style="width: 9vw; height: 27vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                        <img src="/images/1.png" class="card-img-top rounded-2 pt-2" alt="...">
+                        <div class="logo">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h6 class="text-white text-bold pt-2">Dinner With Friends</h6>
+                        <p class="text-grey textlow">The perfect soundtrack<br>to those long nights...</p>
+                        <div class="logo">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 card1"
+                        style="width: 9vw; height: 27vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                        <img src="/images/2.png" class="card-img-top rounded-2 pt-2" alt="...">
+                        <h6 class="text-white text-bold pt-2">Dinner Jazz</h6>
+                        <p class="text-grey textlow">The perfect soundtrack<br>to those long nights...</p>
+                        <div class="logo">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 card1 "
+                        style="width: 9vw; height: 27vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                        <img src="/images/3.png" class="card-img-top rounded-2 pt-2" alt="...">
+                        <h6 class="text-white text-bold pt-2">Dinner Lounge</h6>
+                        <p class="text-grey textlow">The perfect soundtrack<br>to those long nights...</p>
+                        <div class="logo">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 card1 "
+                        style="width: 9vw; height: 27vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                        <img src="/images/4.png" class="card-img-top rounded-2 pt-2" alt="...">
+                        <h6 class="text-white text-bold pt-2">Feel Good Dinner</h6>
+                        <p class="text-grey textlow">The perfect soundtrack<br>to those long nights...</p>
+                        <div class="logo">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 card1"
+                        style="width: 9vw; height: 27vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                        <img src="/images/5.png" class="card-img-top rounded-2 pt-2" alt="...">
+                        <h6 class="text-white text-bold pt-2">Bossa Nova Dinner </h6>
+                        <p class="text-grey textlow">The perfect soundtrack<br>to those long nights...</p>
+                        <div class="logo">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 card1"
+                        style="width: 9vw; height: 27vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                        <img src="/images/6.png" class="card-img-top rounded-2 pt-2" alt="...">
+                        <h6 class="text-white text-bold pt-2">Kitchen Swagger</h6>
+                        <p class="text-grey textlow">The perfect soundtrack<br>to those long nights...</p>
+                        <div class="logo">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 card1"
+                        style="width: 9vw; height: 27vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                        <img src="/images/7.png" class="card-img-top rounded-2 pt-2" style="height: 19vh;">
+                        <h6 class="text-white text-bold pt-2">Soulful Dinner</h6>
+                        <p class="text-grey textlow">The perfect soundtrack<br>to those long nights...</p>
+                        <div class="logo">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 ">
+                    <div class="col-2 d-flex flex-column">
+                        <h6 class="text-white text-bold"> Company</h6>
+                        <a href="" class="text-grey textu pt-3">About</a>
+                        <a href="" class="text-grey textu pt-3">Jobs</a>
+                        <a href="" class="text-grey textu pt-3">For the Record</a>
+                    </div>
+                    <div class="col-2 d-flex flex-column">
+                        <h6 class="text-white text-bold"> Comunities</h6>
+                        <a href="" class="text-grey textu pt-3">For Artists</a>
+                        <a href="" class="text-grey textu pt-3">Developers</a>
+                        <a href="" class="text-grey textu pt-3">Advertising</a>
+                        <a href="" class="text-grey textu pt-3">Investors</a>
+                        <a href="" class="text-grey textu pt-3">Vendors</a>
+                    </div>
+                    <div class="col-2 d-flex flex-column">
+                        <h6 class="text-white text-bold"> Useful Links</h6>
+                        <a href="" class="text-grey textu pt-3">Support</a>
+                        <a href="" class="text-grey textu pt-3">Free Mobile App</a>
+                    </div>
+
+                    <div class="col-6 d-flex flex-row justify-content-end social  ">
+                        <button class="btn "><i class="fa-brands fa-instagram pe-5"></i></button>
+                        &nbsp;<button class="btn "><i class="fa-brands fa-facebook"></i></button>
+                        &nbsp;<button class="btn "><i class="fa-brands fa-snapchat "></i></button>
+                    </div>
+                </div>
+                <br>
+                <div class="container-fluid hr">
+                    <div class="row pt-4">
+                        <h6 class="text-grey">© 2024 Spotify AB</h6>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="container-fluid d-none d-md-block editf">
+            <div class="row d-flex d-inline-block">
+                <div class="col-6 d-flex flex-column ps-4 ">
+                    <h6 class="text-white pt-3" style="font-weight: 700;">Preview of Spotify</h6>
+                    <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center  bedit">
+                    <button type="button" class="btn ">Sign up free</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Phone screen-->
+    <div class="container-fluid d-md-none phone">
+        <!--header-->
+        <div class="row text-side fixed-top d-flex flex-row">
+            <div class="col-5 pt-2 w-25 d-flex justify-content-start ps-4">
+                <h5 class="text-white pt-2 logo1"><i class="fa-brands fa-spotify h5"></i> Spotify</h5>
+            </div>
+            <div class="col-7 w-75 pt-2 d-flex justify-content-end pe-4">
+                <nav aria-label="breadcrumb ">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item  pt-2"><a href="#" style="color: white;">Home</a></li>
+                        <li class="breadcrumb-item pt-2"><a href="#">Music</a></li>
+                        <li class="breadcrumb-item active pt-2" aria-current="page"><a href="">Search</a></li>
+                        &nbsp;&nbsp;<button type="button" class="btn btn-primary pt-3">
+                        </button>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="row extra">
+
+        </div>
+        <!--First column-->
+        <div class="row phone d-flex d-inline-block mt-5">
+            <div class="col-6 d-flex flex-column p-0">
+                <div class="row p-0 m-2 w-75">
+                    <div class="col-12  cardp d-flex d-inline-block ms-4 p-0 rounded-2 "
+                        style="background-color:rgb(18, 18, 18);">
+                        <img src="/images/8.png" class="photo">
+                        <h6 class="text-white ps-2 pt-3">Kanhiya Mittal</h6>
+                    </div>
+                </div>
+                <div class="row m-2 p-0 w-75">
+                    <div class="col-12  cardp d-flex d-inline-block ms-4 p-0 rounded-2 "
+                        style="background-color:rgb(18, 18, 18);">
+                        <img src="/images/9.png" class="photo">
+                        <h6 class="text-white ps-2 pt-3">Cheema Y</h6>
+                    </div>
+                </div>
+                <div class="row m-2 p-0 w-75">
+                    <div class="col-12  cardp d-flex d-inline-block ms-4 p-0 rounded-2 "
+                        style="background-color:rgb(18, 18, 18);">
+                        <img src="/images/10.png" class="photo">
+                        <h6 class="text-white ps-2 pt-3">Guri Lahoria</h6>
+                    </div>
+                </div>
+                <div class="row m-2 p-0 w-75">
+                    <div class="col-12  cardp d-flex d-inline-block ms-4 p-0 rounded-2 "
+                        style="background-color:rgb(18, 18, 18);">
+                        <img src="/images/11.png" class="photo">
+                        <h6 class="text-white ps-2 pt-3">Mani Longia</h6>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-6 d-flex flex-column p-0">
+                <div class="row p-0 mt-2 w-75">
+                    <div class="col-12  cardp d-flex d-inline-block ms-4 p-0 rounded-2 "
+                        style="background-color:rgb(18, 18, 18);">
+                        <img src="/images/12.png" class="photo">
+                        <h6 class="text-white ps-2 pt-3">Navaan Sandhu Mix</h6>
+                    </div>
+                </div>
+                <div class="row mt-3 p-0 w-75">
+                    <div class="col-12  cardp d-flex d-inline-block ms-4 p-0 rounded-2 "
+                        style="background-color:rgb(18, 18, 18);">
+                        <img src="/images/13.png" class="photo">
+                        <h6 class="text-white ps-2 pt-3">Harnoor Mix</h6>
+                    </div>
+                </div>
+                <div class="row mt-3 p-0 w-75">
+                    <div class="col-12  cardp d-flex d-inline-block ms-4 p-0 rounded-2 "
+                        style="background-color:rgb(18, 18, 18);">
+                        <img src="/images/14.png" class="photo">
+                        <h6 class="text-white ps-2 pt-3">Kanhiya Mittal</h6>
+                    </div>
+                </div>
+                <div class="row mt-3 p-0 w-75">
+                    <div class="col-12  cardp d-flex d-inline-block ms-4 p-0 rounded-2 "
+                        style="background-color:rgb(18, 18, 18);">
+                        <img src="/images/15.png" class="photo">
+                        <h6 class="text-white ps-2 pt-3">Mxrci</h6>
+                    </div>
+                </div>
+            </div>
+        <!--Second Column-->
+        </div>
+        <div class="row mt-4 ms-2">
+            <h5 class="text-white">Jump Back in</h5>
+        </div>
+        <!--Card column-->
+        <div class="row sc">
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/16.png" class="card-img-top rounded-2 pt-2 " alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Yaad Mix</h6>
+                <p class="text-grey textlow2 ">Harvi, Tyson Sidhu and<br>Kahlon</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/17.png" class="card-img-top rounded-2 pt-2" alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Color Of God</h6>
+                <p class="text-grey textlow2 ">Romey Maan<br>Sulfa</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/11.png" class="card-img-top rounded-2 pt-2 rounded-circle" alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Mani Longia</h6>
+                <p class="text-grey textlow2 ">Artist<br></p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/15.png" class="card-img-top rounded-2 pt-2 rounded-circle" alt="...">
+                <h6 class="text-white text-bold textlow2 pt-3">Mxrci</h6>
+                <p class="text-grey textlow2 ">Artist<br></p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            
+        </div>
+        <!--secound card-->
+        <div class="row mt-4 ms-2">
+            <h5 class="text-white">Your top mixes</h5>
+        </div>
+        <!--Card column-->
+        <div class="row sc">
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/18.png" class="card-img-top rounded-2 pt-2 " alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Jordan Sandhu Mix</h6>
+                <p class="text-grey textlow2 ">Navaan Sandhu, Manni<br>Sandhu and Prem...</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/19.png" class="card-img-top rounded-2 pt-2" alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Hindi Mix</h6>
+                <p class="text-grey textlow2 ">Raghav Chaitanya,<br>Pritam, Sachin-Jigar...</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/20.png" class="card-img-top rounded-2 pt-2" alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Tamil Mix</h6>
+                <p class="text-grey textlow2 ">Dhibu Ninan Thomas,<br>Thaman S, Govind...</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/21.png" class="card-img-top rounded-2 pt-2" alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Romantic Mix</h6>
+                <p class="text-grey textlow2 ">Tarsem Jassar, Harnoor,<br>Akhil and more</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div> 
+        </div>
+        <!--third card-->
+        <div class="row mt-4 ms-2">
+            <h5 class="text-white">Recently Played</h5>
+        </div>
+        <!--Card column-->
+        <div class="row sc">
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/22.png" class="card-img-top rounded-2 rounded-circle pt-2 " style="height: auto; width: auto;">
+                <h6 class="text-white text-bold textlow2 pt-2">Shubh</h6>
+                <p class="text-grey textlow2 ">Artist<br></p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/23.png" class="card-img-top rounded-2 rounded-circle pt-2" style="height: 12vh;width: auto;">
+                <h6 class="text-white text-bold textlow2 pt-2">Singaa</h6>
+                <p class="text-grey textlow2 ">Artist<br></p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/24.png" class="card-img-top rounded-2 pt-2 rounded-circle" style="height: 12vh;">
+                <h6 class="text-white text-bold textlow2 pt-2">Gurnam Bhullar</h6>
+                <p class="text-grey textlow2 ">Artist<br></p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/25.png" class="card-img-top rounded-2 pt-2 rounded-circle" alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Gippy Grewal</h6>
+                <p class="text-grey textlow2 ">Artist<br></p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>   
+        </div>
+        <!--Card four-->
+        <div class="row mt-4 ms-2">
+            <h5 class="text-white">Made For ADITYA Garg</h5>
+        </div>
+        <!--Card column-->
+        <div class="row sc">
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/26.png" class="card-img-top rounded-2 pt-2 " alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Daily Mix 1</h6>
+                <p class="text-grey textlow2 ">Navaan Sandhu, Harvi,<br>Harnoor and more</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/27.png" class="card-img-top rounded-2 pt-2" alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Daily Mix 2</h6>
+                <p class="text-grey textlow2 ">AP Dhillon, Sidhu<br>Moose wala, A Kay a...</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/28.png" class="card-img-top rounded-2 pt-2 " alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Daily Mix 3</h6>
+                <p class="text-grey textlow2 ">Twinbeatz, The<br>PropheC, Akhil and...</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+            <div class="card rounded-3   "
+                style="width: 20vw; height: 20vh; background-color: rgb(18, 18, 18);margin: 15px;">
+                <img src="/images/29.png" class="card-img-top rounded-2 pt-2 " alt="...">
+                <h6 class="text-white text-bold textlow2 pt-2">Daily Mix 4</h6>
+                <p class="text-grey textlow2 ">Samriddh Gaur,<br>Kanhiya Mittal, Gaura...</p>
+                <div class="logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>  
+        </div>
+        <div class="row extra2"></div>
+        <div class="row fixed-bottom">
+            <div class="col-12 text-side pt-3 pb-3 d-flex justify-content-center">
+                <h5 class="text-white">@Aditya_Garg</h5>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
